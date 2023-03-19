@@ -29,6 +29,4 @@ Given list is [2, 3, 6, 6, 5]. The maximum score is 6, second maximum score is 5
 
 n = int(input())
 arr = set(map(int, input().split()))
-arr = sorted(arr, key=int, reverse=True)
-arr.pop(0)
-print(arr.pop(0))
+print(sorted(list(set(arr)))[-2])
