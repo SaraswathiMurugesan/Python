@@ -7,3 +7,35 @@ z = 4
 print(x,y,z)
 #Output
 2 3 4
+*******************************************
+#Program
+name = input("Enter a name:")
+print(name.capitalize());
+#Output
+Enter a name:saraswathi
+Saraswathi
+********************************************
+#Program
+name = input("Enter a name:")
+while True:
+    print(name.capitalize())
+#Output
+Enter a name:saraswathi
+Saraswathi
+Saraswathi
+Saraswathi
+..
+..
+..
+**********************************************
+#Program
+while True:
+    name = input("Enter a Name: ")
+    print(name.capitalize())
+#Output
+Enter a Name: sarawathi
+Sarawathi
+Enter a Name: saraswathi
+Saraswathi
+Enter a Name: 
+***********************************************
